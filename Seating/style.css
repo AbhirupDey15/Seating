@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 50px 30px;
+
+    /* Above padding should be given priority when header will get added 🔝 */
+
+    background: #fafafa;
+    padding-top: 101px;
+    overflow: auto;
+}
+
+.seats-container {
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+#seat-layout {
+    width: 75%;
+    margin: 0 auto 0 auto;
+    overflow: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+table tbody {
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+table tbody tr {
+    border: 0;
+    font-size: 100%;
+    font-weight: 400;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.hello {
+    font-size: 13px;
+    padding-top: 6px;
+}
+
+#extra {
+    border: none;
+}
+
+.price {
+    position: relative;
+    z-index: 1;
+    vertical-align: top;
+}
+
+.seat {
+    width: 100%;
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ececec;
+}
+
+.seatRow {
+    margin-right: 6px;
+    margin-top: 9px;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.row1 {
+    margin: 4px;
+    float: left;
+    width: 25px;
+    height: 25px;
+}
+
+.row1 a {
+    display: inline-block;
+    font-size: 10px;
+    line-height: 25px;
+    font-weight: 400;
+    background: #fff;
+    vertical-align: top;
+    border: 1px solid #1ea83c;
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    color: #1ea83c;
+    text-align: center;
+    text-decoration: none;
+}
+
+.all-eyes-this-way-container {
+    width: 40%;
+    margin: 10px auto auto auto;
+    height: 20%;
+}
+
+.symbol-container {
+    width: 260px;
+    height: 20px;
+    display: block;
+    margin: 50px auto 10px;
+    text-align: center;
+    color: #999;
+    font-size: 100%;
+}
+
+.seat-type {
+    height: 32px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+}
+
+.sold-seat-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sold-seat-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: #eee;
+}
+
+.sold-seat-content {
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+    margin-left: 8px;
+    font-weight: 400;
+}
+
+.sold-seat-box1 {
+    background-color: #fff;
+    border: 1px solid #1ea83c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    width: 16px;
+    height: 16px;
+    margin-left: 32px;
+}
+
+.sold-seat-box2 {
+    background-color: #1ea83c;;
+    border: 1px solid #1ea83c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    width: 16px;
+    height: 16px;
+    margin-left: 32px;
+}
